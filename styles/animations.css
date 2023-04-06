@@ -1,0 +1,13 @@
+@keyframes slideleft{
+    from {
+        visibility: visible;
+        transform: translateX(-100%);
+    }
+
+    to {
+        visibility: visible;
+        transform: translateX(-5%);
+    }
+}
+
+

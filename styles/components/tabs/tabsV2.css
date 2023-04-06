@@ -1,0 +1,23 @@
+.tabsV2{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    
+}
+.tabsV2__btns{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: start;
+    gap: 10rem;
+    padding-top: 10%;
+    transform: translateX(10rem);
+}
+.tabsV2__btns-item{
+    overflow: visible;
+}
+
+.tabsV2__video{
+    width: 50%;
+    height: 100%;
+}

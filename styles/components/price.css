@@ -1,0 +1,62 @@
+
+.price header{
+    width: clamp(150rem,90%,270rem);
+    gap: 0;
+}
+.price header div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: url("../../assets/svgs/dolar.svg") left no-repeat;
+    background-size: contain;
+    width: clamp(135rem,90%,216.5rem);
+    margin: 0 auto;
+  
+}
+.price header p{
+    font-family: var(--font-title);
+    font-size: 11rem;
+    color: var(--orange-3);
+    text-align: right;
+    width: 80%;
+    margin-top: -5rem;
+}
+.price header div h3{
+    width: 100%;
+    text-align: right;
+    font-family: var(--font-title);
+    font-size: clamp(30rem,20vw,60rem);
+    color: var(--orange-1);
+    margin-left: -10rem;
+}
+.price header div h3 span{
+    font-family: var(--font-subtitle);
+    font-size: clamp(15rem, 10vw,20rem);
+    margin-left: -5rem;
+}
+.price__features{
+    font-family: var(--font-body);
+    font-size: clamp(11.5rem,5vw,16.5rem);
+    width: clamp(135rem,90%,217rem);
+    height: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.price__features-item{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+.price__features-item img{
+    width: 15rem;
+    height: 15rem;
+}
+.price__features-item p{
+    text-transform: capitalize;
+    text-align: left;
+}

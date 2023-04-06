@@ -1,0 +1,28 @@
+.header--about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+.header--about h2{
+    height: 100%;
+    padding-top: 10%;
+    background: url("../../assets/svgs/gota.svg") no-repeat center;
+    background-size: contain;
+}
+.header--about img{
+    width: clamp(85rem,30vw,120rem);
+    height: clamp(107rem,40vh,175rem);
+    border-radius: 10rem;
+    box-shadow:
+        0px 1.5px 9.8px rgba(0, 0, 0, 0.077),
+        0px 4.9px 16.5px rgba(0, 0, 0, 0.113),
+        0px 22px 32px rgba(0, 0, 0, 0.19)
+        ;
+}
+.section--about p{
+    width: 90%;
+    text-align: right;
+    background:url("../../assets/svgs/pringa.svg") no-repeat bottom left;
+    background-size: 60rem;
+}

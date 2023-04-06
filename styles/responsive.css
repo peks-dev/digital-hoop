@@ -1,0 +1,190 @@
+/* Tablet breackpoint*/
+@media screen and (min-width: 834px){
+    
+    .benefics__list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+    }
+    .benefics__list-item{
+        position: relative;
+        width: 115rem;
+        align-items: center;
+        text-align: center;
+    }
+    .benefics__list-item:nth-child(1){
+        top: 20%;
+        right: 0;
+    }
+    .benefics__list-item:nth-child(2){
+        top: 0;
+        left: 0;
+        align-items: center;
+        text-align: center;
+    }
+    .benefics__list-item:nth-child(3){
+        bottom: 20%;
+        right: 0;
+    }
+
+    /* //////////*/
+    .collage{
+        top: 10%;
+        gap: 15rem;
+        left: 10%;
+    }
+    .btn-secundary__text{
+        padding-left: 25rem;
+        padding-right: 10rem;
+    }
+}
+
+/* Desktop breackpoint*/
+@media screen and (min-width: 1280px){
+    .section--presentation{
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 0;
+        background: 
+        linear-gradient(
+            to top,
+            rgba(70,73,76,100),
+            rgba(70,73,76,0)),
+            url("../assets/backgrounds/desk-view-hero.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        justify-content: flex-end;
+    }
+    .section--presentation header{
+        order: 1;
+        text-align: left;
+        padding-left: 5%;
+    }
+    .section--presentation lottie-player{
+        order: 2;
+    }
+
+    /* ///////// */
+    .benefics header{
+        margin-top: 0;
+    }
+    .benefics__list{
+        position: relative;
+    }
+    .benefics__list-item:nth-child(1){
+        top: 0;
+        right: 0;
+    }
+    .benefics__list-item:nth-child(2){
+        top: -10%;
+        left: 0;
+        align-items: center;
+        text-align: center;
+    }
+    .benefics__list-item:nth-child(3){
+        bottom: 0;
+        right: 0;
+    }
+    /* /////// */
+    
+    /* /////// */
+    .process{
+        padding: 0 5%;
+        flex-direction: row;
+    }
+    .process header p{
+        width: 225rem;
+    }
+    /* /////// */
+    .slider1__item h3{
+        margin-bottom: 10rem;
+    }
+    .slider1__item-palette{
+        bottom: 10%;
+        left: 25%
+    }
+    .price{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .price__features{
+        gap: 10rem;
+    }
+    /* /////// */
+    .section--about{
+        flex-direction: row;
+        padding: 0 5%;
+        
+    }
+    .section--about header{
+        flex-direction: column;
+        align-items: end;
+        padding-right: 5%;
+    }
+    .section--about header h2{
+        order: 2;
+    }
+    .section--about header img{
+        order: 1;
+    }
+    .section--about p{
+        text-align: left;
+    }
+    /* /////// */
+    .section--faqs{
+        padding-top: 8%;
+        background:
+        linear-gradient(
+            to bottom, 
+            rgba(70,73,76, 100%),
+            rgba(70,73,76,50%),
+            rgb(70,73,76,10%)
+            ),  url("../assets/backgrounds/court-pasado.png") no-repeat center;
+        background-size: cover;
+    }
+    .section--design{
+        overflow:visible
+    }
+    .collage{
+        top: 10%;
+        width: 30%;
+    }
+    .tabsV2{
+        width: 45%;
+    }
+    .tabsV2__video{
+        width: 40%;
+    }
+    .tabsV2__btns{
+        width: 60%;
+    }
+    .section--work{
+        flex-direction: row;
+        align-items: center;
+    }
+    .header--work{
+        width: 30%;
+        text-align: left;
+    }
+    .section--process{
+        flex-direction: row;
+        padding: 0 5%;
+    }
+    .slider2{
+        height: 70%;
+        order: 1;
+    }
+    .header--process{
+        padding-left: 20rem;
+        order: 2;
+        text-align: right;
+        align-items: flex-end;
+    }
+    
+
+}

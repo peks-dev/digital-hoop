@@ -1,0 +1,32 @@
+
+.title-text{
+    font-size: clamp(15rem,5vw,22.5rem); 
+    word-break: keep-all;
+    font-family: var(--font-title);
+    color: var(--orange-3);
+}
+.subtitle-text{
+    font-size: clamp(11.5rem,3vw,14rem);
+    letter-spacing: 0.6rem;
+    word-break: keep-all;
+    font-family: var(--font-subtitle);
+    color: var(--orange-1);
+}
+.body-text{
+    font-size: clamp(11.5rem,4vw,16.5rem);
+    word-break: keep-all;
+    font-family: var(--font-body);
+    color: var(--white);
+}
+
+/* Modificadores*/
+.title-text--big{
+    font-size: clamp(15rem,5vw,22.5rem);
+    text-transform: uppercase;
+}
+.title-text--short{
+    width: 70%;
+}
+.body-text--small{
+    font-size: clamp(10rem, 5vw,14rem);
+}

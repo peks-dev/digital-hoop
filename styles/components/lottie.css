@@ -1,0 +1,9 @@
+.lottie-file{
+   height: 30%;
+   transform: scale(1.2);
+}
+@media screen and (min-width: 1280px){
+   .lottie-file{
+      transform: scale(2.8);
+   }
+}
